@@ -1,3 +1,4 @@
+console.log("The Website is Runing");
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://raw.githubusercontent.com/loaimohamed/Test/master/Data.json");
 var listM = document.getElementById("listM");
@@ -12,7 +13,6 @@ xhr.onload = function () {
             trE.appendChild(tdE);
         }
         listM.appendChild(trE);
-        //console.log(l);
         
     }
     var colorRed = document.getElementsByTagName("tr");
@@ -29,6 +29,4 @@ xhr.onload = function () {
     }
 }
 xhr.send();
-window.on = function () {
-}
 // {"List" : ["","","","","","","",""]},
