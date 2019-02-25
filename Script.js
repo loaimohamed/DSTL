@@ -12,7 +12,7 @@ xhr.onload = function () {
             trE.appendChild(tdE);
         }
         listM.appendChild(trE);
-        console.log(l);
+        //console.log(l);
         
     }
     var colorRed = document.getElementsByTagName("tr");
