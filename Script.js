@@ -11,13 +11,14 @@ xhr.onload = function () {
             var tdE = document.createElement("td");
             tdE.innerHTML = cvb[l].List[i];
             trE.appendChild(tdE);
+            //console.log(l);
         }
         listM.appendChild(trE);
         
     }
     var colorRed = document.getElementsByTagName("tr");
     for (var i = 0; i < colorRed.length; i++) {
-        console.log(i);
+        //console.log(i);
         var ratingMA = colorRed[i].innerHTML.indexOf("+16/");
         if (ratingMA != -1) { colorRed[i].children[6].style.backgroundColor = "#00F"; }
         var rating18 = colorRed[i].innerHTML.indexOf("+18/");
