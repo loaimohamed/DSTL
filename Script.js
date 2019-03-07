@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "Data.json");
+xhr.open("GET", "https://raw.githubusercontent.com/loaimohamed/Test/master/Data.json");
 var listM = document.getElementById("listM");
 xhr.onload = function () {
     jsonFile();
