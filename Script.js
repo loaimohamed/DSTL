@@ -32,6 +32,6 @@ try {
     }
     xhr.send();
 } catch (er) {
-    alert(er) ;
+    alert(er);
 }
 // {"List" : ["","","","","","","",""]},
