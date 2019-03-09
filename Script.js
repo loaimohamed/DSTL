@@ -31,5 +31,6 @@ xhr.onload = function () {
             listName.insertAdjacentElement("beforeend", mark);
         }
     }();
+    listM.firstElementChild.classList.add("topStyle");
 }
 xhr.send();
