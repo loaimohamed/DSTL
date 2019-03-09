@@ -13,6 +13,7 @@ xhr.onload = function () {
         }
         listM.appendChild(trE);
     }
+    listM.firstElementChild.classList.add("topStyle");
     var ageRatings = ["+18", "+17", "+16", "+14"];
     !function () {
         var colorSys = document.getElementsByTagName("tr");
@@ -31,6 +32,5 @@ xhr.onload = function () {
             listName.insertAdjacentElement("beforeend", mark);
         }
     }();
-    listM.firstElementChild.classList.add("topStyle");
 }
 xhr.send();
