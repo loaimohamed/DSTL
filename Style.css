@@ -1,5 +1,5 @@
 body {margin: 0;background: #DEDEDE;font-family: Arial;}
-td {border: 0.1px solid;padding: 10px;}
+td {border: 0.1px solid;padding: 10px 6px;}
 table {border-collapse: collapse;margin: 0 auto;margin-bottom: 75px;}
 tr.topStyle > td {background: #c0c0c0;}
 /*Design 1*/
