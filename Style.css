@@ -1,8 +1,7 @@
 body {margin: 0;background: #DEDEDE;font-family: Arial;}
-td{border: 0.1px solid;padding: 10px;backgorund: transparent;}
+td {border: 0.1px solid;padding: 10px;}
 table {border-collapse: collapse;margin: 0 auto;margin-bottom: 75px;}
-table{background: #c0c0c0;font-weight: normal;}
-tr.topStyle > td {background: #c6c6c6;}
+tr.topStyle > td {background: #c0c0c0;}
 /*Design 1*/
 .rating15 {background: darkgoldenrod;}.rating18 {background: red;}.rating16 {background: blue;}.rating17 {background: Purple;}
 /*Design 2*/
