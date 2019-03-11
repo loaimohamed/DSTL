@@ -8,6 +8,7 @@ try {
     function dataCalling() {
         var informationZ = JSON.parse(xhr.responseText);
         var cvb = informationZ;
+        console.log(informationZ.status);
         for (l = 0; l < Object.keys(cvb).length - 1; l++) {
             var trE = document.createElement("tr");
             for (i = 0; i < 8; i++) {
