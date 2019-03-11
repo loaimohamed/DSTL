@@ -2,6 +2,9 @@ var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://raw.githubusercontent.com/loaimohamed/Test/master/Data.json");
 var listM = document.getElementById("listM");
 xhr.onload = function () {
+    dataCalling();ratingsFillter();
+}
+function dataCalling() {
     var informationZ = JSON.parse(xhr.responseText);
     var cvb = informationZ;
     for (l = 0; l < Object.keys(cvb).length - 1; l++) {
@@ -13,6 +16,8 @@ xhr.onload = function () {
         }
         listM.appendChild(trE);
     }
+}
+function ratingsFillter() {
     listM.firstElementChild.classList.add("topStyle");
     var ageRatings = ["+18", "+17", "+16", "+14"];
     !function () {
